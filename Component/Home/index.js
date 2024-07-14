@@ -42,18 +42,18 @@ const Home = () => {
           </div>
 
 
-          {/* <div className="md:w-1/2 md:pl-4">
+          <div className="md:w-1/2 md:pl-4">
             <motion.div
               variants={fadeIn("left", 0.3)}
               initial="hidden"
               animate="show"
             >
               <section className="mb-4 w-96">
-                <img src={dp} className="" alt="Profile" style={{borderRadius:"60%"}}/>
+                <img src={dp} className="" alt="Profile" style={{borderRadius:"50%"}}/>
               </section>
             </motion.div>
 
-          </div> */}
+          </div>
 
         </div>
         <hr className=" md:block border-t-2 border-black mr-10" />
