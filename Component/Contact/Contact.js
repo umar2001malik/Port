@@ -19,12 +19,12 @@ const Contact = () => {
   return (
     <div className=' h-screen'>
 
-    <h2 className="text-3xl md:text-4xl lg:text-5xl  mt-10  ml-12 heading" id='Contact'>Contact Me</h2>
+    <h2 className="text-3xl md:text-4xl lg:text-5xl  mt-10   ml-6 heading" id='Contact'>Contact Me</h2>
     <div className="flex flex-col items-center justify-center mt-10 mb-48" >
       
       <h3 className="md:text-3xl text-center mb-6 heading ">Send me a message</h3>
  
-      <div className="w-80 ml-10 md:ml-0 md:w-full">
+      <div className="w-80  md:ml-0 md:w-full">
         <div className="rounded-md shadow-2xl p-6">
           <div className="mb-4">  
             <label htmlFor="name" className="block text-sm font-medium heading">Name</label>

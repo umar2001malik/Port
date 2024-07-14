@@ -48,7 +48,7 @@ const Home = () => {
               initial="hidden"
               animate="show"
             >
-              <section className="mb-4 w-96">
+              <section className="mb-4 md:w-80">
                 <img src={dp} className="" alt="Profile" style={{borderRadius:"50%"}}/>
               </section>
             </motion.div>
